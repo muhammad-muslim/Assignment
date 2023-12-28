@@ -1,0 +1,2055 @@
+@media screen and (width:375px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main {
+        background-color: #1a1a1a;
+        width: 100%;
+        /* margin-right: -2px !important; */
+        height: 100%;
+        overflow-y: scroll;
+        color: white;
+        float: right;
+        position: relative;
+        border-radius: 8px;
+    }
+
+    #nav {
+        height: 60px;
+        opacity: 98%;
+        width: 100%;
+        top: -1px;
+        background-color: #121212;
+        position: fixed;
+        z-index: 2;
+        backdrop-filter: blur(1px);
+        border-radius: 8px;
+        /* background-color: #242424; */
+    }
+
+    .arrows {
+        display: flex;
+        position: absolute;
+        top: 13px;
+        left: 10px;
+    }
+
+    #arrow1 {
+        border: 1px solid black;
+        padding-left: 5px !important;
+        background-color: black;
+        border-radius: 50px;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+        display: none;
+    }
+
+    /* #arrow2 {
+        margin-left: 5px !important;
+        padding-left: 5px !important;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 50%;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+    } */
+
+    .login {
+        display: flex;
+        float: right;
+        position: absolute;
+        right: 10px;
+    }
+
+    #login1 {
+        color: white;
+        background-color: #121212;
+        font-size: 18px;
+        border: 1px solid #121212;
+        margin-left: 15px;
+        height: 50px;
+    }
+
+    #login1 a {
+        color: white;
+    }
+
+
+    #login2,
+    #a {
+        color: black;
+        background-color: white;
+        border-radius: 45px;
+        font-size: 18px;
+        margin-left: 19px;
+        margin-top: 5px;
+        font-weight: bold;
+        height: 50px;
+    }
+
+    #a {
+        margin-right: 15px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .spotify {
+        display: flex;
+        position: relative;
+        top: 60px;
+        /* justify-content: space-evenly; */
+    }
+
+    #h2 {
+        position: absolute;
+        left: 10px;
+        font-size: 20px;
+        top: 10px;
+    }
+
+    #h4 {
+        position: absolute;
+        left: 265px;
+        font-size: 17px;
+        top: 10px;
+    }
+
+    .card-container {
+        width: 90%;
+        text-align: center;
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        left: 12px;
+        top: 130px;
+        margin: 5px;
+        gap: 10px;
+        /* border: 1px solid; */
+    }
+
+    .card {
+        margin-left: 5px;
+        margin-top: 10px;
+        background-color: #121212;
+        border-radius: 8px;
+    }
+
+    .card img {
+        margin-left: 1px;
+        margin-top: 8px;
+        max-width: 90%;
+        max-height: 100%;
+        border-radius: 8px;
+    }
+
+    .card h5 {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .card p {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 13px;
+        color: grey;
+        font-weight: 100;
+    }
+
+    .footer {
+        display: inline-block;
+        position: relative;
+        top: 180px;
+        justify-content: space-around;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+
+    footer h3 {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    footer a {
+        display: flex;
+        line-height: 25px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .social-apps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    footer hr {
+        position: relative;
+        top: 230px;
+        width: 100%;
+    }
+
+    footer h4 {
+        position: relative;
+        top: 290px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 50px;
+    }
+    
+
+    @media screen and (max-width: 1280px) {
+
+        .nav {
+            display: none;
+        }
+
+        .toggle {
+            display: contents;
+        }
+
+        #arrow1 {
+            display: contents;
+        }
+
+        .nav-canvas {
+            margin: -1px;
+        }
+
+        .nav-canvas1 {
+            height: 150px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+        }
+
+        .nav-canvas img {
+            height: 20%;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .nav-canvas2 {
+            height: 445px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            margin-top: 5px;
+        }
+
+    }
+    
+
+}
+
+@media screen and (max-width:600px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main {
+        background-color: #1a1a1a;
+        width: 100%;
+        /* margin-right: -2px !important; */
+        height: 100%;
+        overflow-y: scroll;
+        color: white;
+        float: right;
+        position: relative;
+        border-radius: 8px;
+    }
+
+    #nav {
+        height: 60px;
+        opacity: 98%;
+        width: 100%;
+        top: -1px;
+        background-color: #121212;
+        position: fixed;
+        z-index: 2;
+        backdrop-filter: blur(1px);
+        border-radius: 8px;
+        /* background-color: #242424; */
+    }
+
+    .arrows {
+        display: flex;
+        position: absolute;
+        top: 13px;
+        left: 10px;
+    }
+
+    #arrow1 {
+        border: 1px solid black;
+        padding-left: 5px !important;
+        background-color: black;
+        border-radius: 50px;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+        display: none;
+    }
+
+    /* #arrow2 {
+        margin-left: 5px !important;
+        padding-left: 5px !important;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 50%;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+    } */
+
+    .login {
+        display: flex;
+        float: right;
+        position: absolute;
+        right: 10px;
+    }
+
+    #login1 {
+        color: white;
+        background-color: #121212;
+        font-size: 18px;
+        border: 1px solid #121212;
+        margin-left: 15px;
+        height: 50px;
+    }
+
+    #login1 a {
+        color: white;
+    }
+
+
+    #login2,
+    #a {
+        color: black;
+        background-color: white;
+        border-radius: 45px;
+        font-size: 18px;
+        margin-left: 19px;
+        margin-top: 5px;
+        font-weight: bold;
+        height: 50px;
+    }
+
+    #a {
+        margin-right: 15px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .spotify {
+        display: flex;
+        position: relative;
+        top: 60px;
+        /* justify-content: space-evenly; */
+    }
+
+    #h2 {
+        position: absolute;
+        left: 30px;
+        font-size: 20px;
+        top: 10px;
+    }
+
+    #h4 {
+        /* position: absolute; */
+        left: 255px;
+        /* float: right; */
+        font-size: 17px;
+        top: 10px;
+    }
+
+    .card-container {
+        width: 90%;
+        text-align: center;
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        left: 12px;
+        top: 130px;
+        margin: 5px;
+        gap: 10px;
+        /* border: 1px solid; */
+    }
+
+    .card {
+        margin-left: 5px;
+        margin-top: 10px;
+        background-color: #121212;
+        border-radius: 8px;
+    }
+
+    .card img {
+        margin-left: 1px;
+        margin-top: 8px;
+        max-width: 90%;
+        max-height: 100%;
+        border-radius: 8px;
+    }
+
+    .card h5 {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .card p {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 13px;
+        color: grey;
+        font-weight: 100;
+    }
+
+    .footer {
+        display: inline-block;
+        position: relative;
+        top: 180px;
+        justify-content: space-around;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+
+    footer h3 {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    footer a {
+        display: flex;
+        line-height: 25px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .social-apps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    footer hr {
+        position: relative;
+        top: 230px;
+        width: 100%;
+    }
+
+    footer h4 {
+        position: relative;
+        top: 290px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        .nav {
+            display: none;
+        }
+
+        .toggle {
+            display: contents;
+        }
+
+        #arrow1 {
+            display: contents;
+        }
+
+        .nav-canvas {
+            margin: -1px;
+        }
+
+        .nav-canvas1 {
+            height: 150px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+        }
+
+        .nav-canvas img {
+            height: 20%;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .nav-canvas2 {
+            height: 445px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            margin-top: 5px;
+        }
+
+    }
+
+}
+
+@media screen and (width:768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main {
+        background-color: #1a1a1a;
+        width: 100%;
+        /* margin-right: -2px !important; */
+        height: 100%;
+        overflow-y: scroll;
+        color: white;
+        float: right;
+        position: relative;
+        border-radius: 8px;
+    }
+
+    #nav {
+        height: 60px;
+        opacity: 98%;
+        width: 100%;
+        top: -1px;
+        background-color: #121212;
+        position: fixed;
+        z-index: 2;
+        backdrop-filter: blur(1px);
+        border-radius: 8px;
+        /* background-color: #242424; */
+    }
+
+    .arrows {
+        display: flex;
+        position: absolute;
+        top: 13px;
+        left: 10px;
+    }
+
+    #arrow1 {
+        border: 1px solid black;
+        padding-left: 5px !important;
+        background-color: black;
+        border-radius: 50px;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+        display: none;
+    }
+
+    /* #arrow2 {
+        margin-left: 5px !important;
+        padding-left: 5px !important;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 50%;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+    } */
+
+    .login {
+        display: flex;
+        float: right;
+        position: absolute;
+        right: 10px;
+    }
+
+    #login1 {
+        color: white;
+        background-color: #121212;
+        font-size: 18px;
+        border: 1px solid #121212;
+        margin-left: 15px;
+        height: 50px;
+    }
+
+    #login1 a {
+        color: white;
+    }
+
+
+    #login2,
+    #a {
+        color: black;
+        background-color: white;
+        border-radius: 45px;
+        font-size: 18px;
+        margin-left: 19px;
+        margin-top: 5px;
+        font-weight: bold;
+        height: 50px;
+    }
+
+    #a {
+        margin-right: 15px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .spotify {
+        display: flex;
+        position: relative;
+        top: 60px;
+        /* justify-content: space-evenly; */
+    }
+
+    #h2 {
+        position: absolute;
+        left: 30px;
+        font-size: 20px;
+        top: 10px;
+    }
+
+    #h4 {
+        /* position: absolute; */
+        left: 650px;
+        /* float: right; */
+        font-size: 17px;
+        top: 10px;
+    }
+
+    .card-container {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        left: -5px;
+        top: 130px;
+        margin: 5px;
+        gap: 5px;
+        /* border: 1px solid; */
+    }
+
+    .card {
+        /* margin-left: 5px; */
+        /* margin-top: 10px; */
+        background-color: #121212;
+        border-radius: 8px;
+    }
+
+    .card img {
+        margin-left: 1px;
+        margin-top: 8px;
+        max-width: 90%;
+        max-height: 100%;
+        border-radius: 8px;
+    }
+
+    .card h5 {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .card p {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 13px;
+        color: grey;
+        font-weight: 100;
+    }
+
+    .footer {
+        display: flex;
+        position: relative;
+        top: 180px;
+        justify-content: space-around;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+
+    footer h3 {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    footer a {
+        display: flex;
+        line-height: 25px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .social-apps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    footer hr {
+        position: relative;
+        top: 230px;
+        width: 100%;
+    }
+
+    footer h4 {
+        position: relative;
+        top: 290px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        .nav {
+            display: none;
+        }
+
+        .toggle {
+            display: contents;
+        }
+
+        #arrow1 {
+            display: contents;
+        }
+
+        .nav-canvas {
+            margin: -1px;
+        }
+
+        .nav-canvas1 {
+            height: 150px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+        }
+
+        .nav-canvas img {
+            height: 20%;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .nav-canvas2 {
+            height: 445px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            margin-top: 5px;
+        }
+
+    }
+
+}
+
+@media screen and (width:820px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main {
+        background-color: #1a1a1a;
+        width: 100%;
+        /* margin-right: -2px !important; */
+        height: 100%;
+        overflow-y: scroll;
+        color: white;
+        float: right;
+        position: relative;
+        border-radius: 8px;
+    }
+
+    #nav {
+        height: 60px;
+        opacity: 98%;
+        width: 100%;
+        top: -1px;
+        background-color: #121212;
+        position: fixed;
+        z-index: 2;
+        backdrop-filter: blur(1px);
+        border-radius: 8px;
+        /* background-color: #242424; */
+    }
+
+    .arrows {
+        display: flex;
+        position: absolute;
+        top: 13px;
+        left: 10px;
+    }
+
+    #arrow1 {
+        border: 1px solid black;
+        padding-left: 5px !important;
+        background-color: black;
+        border-radius: 50px;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+        display: none;
+    }
+
+    /* #arrow2 {
+        margin-left: 5px !important;
+        padding-left: 5px !important;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 50%;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+    } */
+
+    .login {
+        display: flex;
+        float: right;
+        position: absolute;
+        right: 10px;
+    }
+
+    #login1 {
+        color: white;
+        background-color: #121212;
+        font-size: 18px;
+        border: 1px solid #121212;
+        margin-left: 15px;
+        height: 50px;
+    }
+
+    #login1 a {
+        color: white;
+    }
+
+
+    #login2,
+    #a {
+        color: black;
+        background-color: white;
+        border-radius: 45px;
+        font-size: 18px;
+        margin-left: 19px;
+        margin-top: 5px;
+        font-weight: bold;
+        height: 50px;
+    }
+
+    #a {
+        margin-right: 15px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .spotify {
+        display: flex;
+        position: relative;
+        top: 60px;
+        /* justify-content: space-evenly; */
+    }
+
+    #h2 {
+        position: absolute;
+        left: 30px;
+        font-size: 20px;
+        top: 10px;
+    }
+
+    #h4 {
+        /* position: absolute; */
+        left: 650px;
+        /* float: right; */
+        font-size: 17px;
+        top: 10px;
+    }
+
+    .card-container {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        left: -5px;
+        top: 130px;
+        margin: 5px;
+        gap: 5px;
+        /* border: 1px solid; */
+    }
+
+    .card {
+        /* margin-left: 5px; */
+        /* margin-top: 10px; */
+        background-color: #121212;
+        border-radius: 8px;
+    }
+
+    .card img {
+        margin-left: 1px;
+        margin-top: 8px;
+        max-width: 90%;
+        max-height: 100%;
+        border-radius: 8px;
+    }
+
+    .card h5 {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .card p {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 13px;
+        color: grey;
+        font-weight: 100;
+    }
+
+    .footer {
+        display: flex;
+        position: relative;
+        top: 180px;
+        justify-content: space-around;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+
+    footer h3 {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    footer a {
+        display: flex;
+        line-height: 25px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .social-apps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    footer hr {
+        position: relative;
+        top: 230px;
+        width: 100%;
+    }
+
+    footer h4 {
+        position: relative;
+        top: 290px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        .nav {
+            display: none;
+        }
+
+        .toggle {
+            display: contents;
+        }
+
+        #arrow1 {
+            display: contents;
+        }
+
+        .nav-canvas {
+            margin: -1px;
+        }
+
+        .nav-canvas1 {
+            height: 150px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+        }
+
+        .nav-canvas img {
+            height: 20%;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .nav-canvas2 {
+            height: 445px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            margin-top: 5px;
+        }
+
+    }
+
+}
+
+@media screen and (width:1024px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main {
+        background-color: #1a1a1a;
+        width: 100%;
+        /* margin-right: -2px !important; */
+        height: 100%;
+        overflow-y: scroll;
+        color: white;
+        float: right;
+        position: relative;
+        border-radius: 8px;
+    }
+
+    #nav {
+        height: 60px;
+        opacity: 98%;
+        width: 100%;
+        top: -1px;
+        background-color: #121212;
+        position: fixed;
+        z-index: 2;
+        backdrop-filter: blur(1px);
+        border-radius: 8px;
+        /* background-color: #242424; */
+    }
+
+    .arrows {
+        display: flex;
+        position: absolute;
+        top: 13px;
+        left: 10px;
+    }
+
+    #arrow1 {
+        border: 1px solid black;
+        padding-left: 5px !important;
+        background-color: black;
+        border-radius: 50px;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+        display: none;
+    }
+
+    /* #arrow2 {
+        margin-left: 5px !important;
+        padding-left: 5px !important;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 50%;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+    } */
+
+    .login {
+        display: flex;
+        float: right;
+        position: absolute;
+        right: 10px;
+    }
+
+    #login1 {
+        color: white;
+        background-color: #121212;
+        font-size: 18px;
+        border: 1px solid #121212;
+        margin-left: 15px;
+        height: 50px;
+    }
+
+    #login1 a {
+        color: white;
+    }
+
+
+    #login2,
+    #a {
+        color: black;
+        background-color: white;
+        border-radius: 45px;
+        font-size: 18px;
+        margin-left: 19px;
+        margin-top: 5px;
+        font-weight: bold;
+        height: 50px;
+    }
+
+    #a {
+        margin-right: 15px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .spotify {
+        display: flex;
+        position: relative;
+        top: 60px;
+        /* justify-content: space-evenly; */
+    }
+
+    #h2 {
+        position: absolute;
+        left: 30px;
+        font-size: 20px;
+        top: 10px;
+    }
+
+    #h4 {
+        /* position: absolute; */
+        left: 890px;
+        /* float: right; */
+        font-size: 17px;
+        top: 10px;
+    }
+
+    .card-container {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        left: -5px;
+        top: 130px;
+        margin: 5px;
+        gap: 5px;
+        /* border: 1px solid; */
+    }
+
+    .card {
+        /* margin-left: 5px; */
+        /* margin-top: 10px; */
+        background-color: #121212;
+        border-radius: 8px;
+    }
+
+    .card img {
+        margin-left: 1px;
+        margin-top: 8px;
+        max-width: 90%;
+        max-height: 100%;
+        border-radius: 8px;
+    }
+
+    .card h5 {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .card p {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 13px;
+        color: grey;
+        font-weight: 100;
+    }
+
+    .footer {
+        display: flex;
+        position: relative;
+        top: 180px;
+        justify-content: space-around;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+
+    footer h3 {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    footer a {
+        display: flex;
+        line-height: 25px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .social-apps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    footer hr {
+        position: relative;
+        top: 230px;
+        width: 100%;
+    }
+
+    footer h4 {
+        position: relative;
+        top: 290px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        .nav {
+            display: none;
+        }
+
+        .toggle {
+            display: contents;
+        }
+
+        #arrow1 {
+            display: contents;
+        }
+
+        .nav-canvas {
+            margin: -1px;
+        }
+
+        .nav-canvas1 {
+            height: 150px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+        }
+
+        .nav-canvas img {
+            height: 20%;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .nav-canvas2 {
+            height: 445px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            margin-top: 5px;
+        }
+
+    }
+
+}
+
+@media screen and (width:280px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main {
+        background-color: #1a1a1a;
+        width: 100%;
+        /* margin-right: -2px !important; */
+        height: 100%;
+        overflow-y: scroll;
+        color: white;
+        float: right;
+        position: relative;
+        border-radius: 8px;
+    }
+
+    #nav {
+        height: 60px;
+        opacity: 98%;
+        width: 100%;
+        top: -1px;
+        background-color: #121212;
+        position: fixed;
+        z-index: 2;
+        backdrop-filter: blur(1px);
+        border-radius: 8px;
+        /* background-color: #242424; */
+    }
+
+    .arrows {
+        display: flex;
+        position: absolute;
+        top: 13px;
+        left: 10px;
+    }
+
+    #arrow1 {
+        border: 1px solid black;
+        padding-left: 5px !important;
+        background-color: black;
+        border-radius: 50px;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+        display: none;
+    }
+
+    /* #arrow2 {
+        margin-left: 5px !important;
+        padding-left: 5px !important;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 50%;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+    } */
+
+    .login {
+        display: flex;
+        float: right;
+        position: absolute;
+        right: 10px;
+    }
+
+    #login1 {
+        color: white;
+        background-color: #121212;
+        font-size: 18px;
+        border: 1px solid #121212;
+        margin-left: 15px;
+        height: 50px;
+    }
+
+    #login1 a {
+        color: white;
+    }
+
+
+    #login2,
+    #a {
+        color: black;
+        background-color: white;
+        border-radius: 45px;
+        font-size: 18px;
+        margin-left: 19px;
+        margin-top: 5px;
+        font-weight: bold;
+        height: 50px;
+    }
+
+    #a {
+        margin-right: 15px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .spotify {
+        display: flex;
+        position: relative;
+        top: 60px;
+        /* justify-content: space-evenly; */
+    }
+
+    #h2 {
+        position: absolute;
+        left: 10px;
+        font-size: 20px;
+        top: 10px;
+    }
+
+    #h4 {
+        position: absolute;
+        left: 180px;
+        font-size: 17px;
+        top: 10px;
+    }
+
+    .card-container {
+        width: 90%;
+        text-align: center;
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        left: 12px;
+        top: 130px;
+        margin: 5px;
+        gap: 10px;
+        /* border: 1px solid; */
+    }
+
+    .card {
+        margin-left: 5px;
+        margin-top: 10px;
+        background-color: #121212;
+        border-radius: 8px;
+    }
+
+    .card img {
+        margin-left: 1px;
+        margin-top: 8px;
+        max-width: 90%;
+        max-height: 100%;
+        border-radius: 8px;
+    }
+
+    .card h5 {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .card p {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 13px;
+        color: grey;
+        font-weight: 100;
+    }
+
+    .footer {
+        display: inline-block;
+        position: relative;
+        top: 180px;
+        justify-content: space-around;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+
+    footer h3 {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    footer a {
+        display: flex;
+        line-height: 25px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .social-apps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    footer hr {
+        position: relative;
+        top: 230px;
+        width: 100%;
+    }
+
+    footer h4 {
+        position: relative;
+        top: 290px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        .nav {
+            display: none;
+        }
+
+        .toggle {
+            display: contents;
+        }
+
+        #arrow1 {
+            display: contents;
+        }
+
+        .nav-canvas {
+            margin: -1px;
+        }
+
+        .nav-canvas1 {
+            height: 150px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+        }
+
+        .nav-canvas img {
+            height: 20%;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .nav-canvas2 {
+            height: 445px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            margin-top: 5px;
+        }
+
+    }
+
+}
+
+@media screen and (width:912px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main {
+        background-color: #1a1a1a;
+        width: 100%;
+        /* margin-right: -2px !important; */
+        height: 100%;
+        overflow-y: scroll;
+        color: white;
+        float: right;
+        position: relative;
+        border-radius: 8px;
+    }
+
+    #nav {
+        height: 60px;
+        opacity: 98%;
+        width: 100%;
+        top: -1px;
+        background-color: #121212;
+        position: fixed;
+        z-index: 2;
+        backdrop-filter: blur(1px);
+        border-radius: 8px;
+        /* background-color: #242424; */
+    }
+
+    .arrows {
+        display: flex;
+        position: absolute;
+        top: 13px;
+        left: 10px;
+    }
+
+    #arrow1 {
+        border: 1px solid black;
+        padding-left: 5px !important;
+        background-color: black;
+        border-radius: 50px;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+        display: none;
+    }
+
+    /* #arrow2 {
+        margin-left: 5px !important;
+        padding-left: 5px !important;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 50%;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+    } */
+
+    .login {
+        display: flex;
+        float: right;
+        position: absolute;
+        right: 10px;
+    }
+
+    #login1 {
+        color: white;
+        background-color: #121212;
+        font-size: 18px;
+        border: 1px solid #121212;
+        margin-left: 15px;
+        height: 50px;
+    }
+
+    #login1 a {
+        color: white;
+    }
+
+
+    #login2,
+    #a {
+        color: black;
+        background-color: white;
+        border-radius: 45px;
+        font-size: 18px;
+        margin-left: 19px;
+        margin-top: 5px;
+        font-weight: bold;
+        height: 50px;
+    }
+
+    #a {
+        margin-right: 15px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .spotify {
+        display: flex;
+        position: relative;
+        top: 60px;
+        /* justify-content: space-evenly; */
+    }
+
+    #h2 {
+        position: absolute;
+        left: 30px;
+        font-size: 20px;
+        top: 10px;
+    }
+
+    #h4 {
+        /* position: absolute; */
+        left: 650px;
+        /* float: right; */
+        font-size: 17px;
+        top: 10px;
+    }
+
+    .card-container {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        left: -5px;
+        top: 130px;
+        margin: 5px;
+        gap: 5px;
+        /* border: 1px solid; */
+    }
+
+    .card {
+        /* margin-left: 5px; */
+        /* margin-top: 10px; */
+        background-color: #121212;
+        border-radius: 8px;
+    }
+
+    .card img {
+        margin-left: 1px;
+        margin-top: 8px;
+        max-width: 90%;
+        max-height: 100%;
+        border-radius: 8px;
+    }
+
+    .card h5 {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .card p {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 13px;
+        color: grey;
+        font-weight: 100;
+    }
+
+    .footer {
+        display: flex;
+        position: relative;
+        top: 180px;
+        justify-content: space-around;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+
+    footer h3 {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    footer a {
+        display: flex;
+        line-height: 25px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .social-apps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    footer hr {
+        position: relative;
+        top: 230px;
+        width: 100%;
+    }
+
+    footer h4 {
+        position: relative;
+        top: 290px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        .nav {
+            display: none;
+        }
+
+        .toggle {
+            display: contents;
+        }
+
+        #arrow1 {
+            display: contents;
+        }
+
+        .nav-canvas {
+            margin: -1px;
+        }
+
+        .nav-canvas1 {
+            height: 150px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+        }
+
+        .nav-canvas img {
+            height: 20%;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .nav-canvas2 {
+            height: 445px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            margin-top: 5px;
+        }
+
+    }
+
+}
+
+@media screen and (width:1280px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main {
+        background-color: #1a1a1a;
+        width: 100%;
+        /* margin-right: -2px !important; */
+        height: 100%;
+        overflow-y: scroll;
+        color: white;
+        float: right;
+        position: relative;
+        border-radius: 8px;
+    }
+
+    #nav {
+        height: 60px;
+        opacity: 98%;
+        width: 100%;
+        top: -1px;
+        background-color: #121212;
+        position: fixed;
+        z-index: 2;
+        backdrop-filter: blur(1px);
+        border-radius: 8px;
+        /* background-color: #242424; */
+    }
+
+    .arrows {
+        display: flex;
+        position: absolute;
+        top: 13px;
+        left: 10px;
+    }
+
+    #arrow1 {
+        border: 1px solid black;
+        padding-left: 5px !important;
+        background-color: black;
+        border-radius: 50px;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+        display: none;
+    }
+
+    /* #arrow2 {
+        margin-left: 5px !important;
+        padding-left: 5px !important;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 50%;
+        padding: 2px;
+        height: 27px;
+        text-align: center;
+    } */
+
+    .login {
+        display: flex;
+        float: right;
+        position: absolute;
+        right: 10px;
+    }
+
+    #login1 {
+        color: white;
+        background-color: #121212;
+        font-size: 18px;
+        border: 1px solid #121212;
+        margin-left: 15px;
+        height: 50px;
+    }
+
+    #login1 a {
+        color: white;
+    }
+
+
+    #login2,
+    #a {
+        color: black;
+        background-color: white;
+        border-radius: 45px;
+        font-size: 18px;
+        margin-left: 19px;
+        margin-top: 5px;
+        font-weight: bold;
+        height: 50px;
+    }
+
+    #a {
+        margin-right: 15px;
+        border: none;
+        font-size: 18px;
+    }
+
+    .spotify {
+        display: flex;
+        position: relative;
+        top: 60px;
+        /* justify-content: space-evenly; */
+    }
+
+    #h2 {
+        position: absolute;
+        left: 30px;
+        font-size: 20px;
+        top: 10px;
+    }
+
+    #h4 {
+        /* position: absolute; */
+        left: 1150px;
+        /* float: right; */
+        font-size: 17px;
+        top: 10px;
+    }
+
+    .card-container {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        left: -5px;
+        top: 130px;
+        margin: 5px;
+        gap: 5px;
+        /* border: 1px solid; */
+    }
+
+    .card {
+        /* margin-left: 5px; */
+        /* margin-top: 10px; */
+        background-color: #121212;
+        border-radius: 8px;
+    }
+
+    .card img {
+        margin-left: 1px;
+        margin-top: 8px;
+        max-width: 90%;
+        max-height: 100%;
+        border-radius: 8px;
+    }
+
+    .card h5 {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .card p {
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 13px;
+        color: grey;
+        font-weight: 100;
+    }
+
+    .footer {
+        display: flex;
+        position: relative;
+        top: 180px;
+        justify-content: space-around;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+
+    footer h3 {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    footer a {
+        display: flex;
+        line-height: 25px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .social-apps {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    footer hr {
+        position: relative;
+        top: 230px;
+        width: 100%;
+    }
+
+    footer h4 {
+        position: relative;
+        top: 290px;
+        color: grey;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 50px;
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        .nav {
+            display: none;
+        }
+
+        .toggle {
+            display: contents;
+        }
+
+        #arrow1 {
+            display: contents;
+        }
+
+        .nav-canvas {
+            margin: -1px;
+        }
+
+        .nav-canvas1 {
+            height: 150px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+        }
+
+        .nav-canvas img {
+            height: 20%;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .nav-canvas2 {
+            height: 445px;
+            width: 100%;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            margin-top: 5px;
+        }
+
+    }
+
+}
